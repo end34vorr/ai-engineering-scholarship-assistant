@@ -106,3 +106,25 @@ Evaluation Focus:
 
 To determine whether the system can accurately answer scholarship queries using only grounded, cited sources, without hallucinating deadlines and safely refuse out-of-scope queries.
 
+
+
+\## Section 1 — Functional Requirements
+
+
+
+| # | Requirement — The system SHALL | Scope Boundary — SHALL NOT (where relevant) |
+
+|---|---|---|
+
+| FR1 | Answer natural language questions about scholarship eligibility criteria based on official source documents. | Make a definitive eligibility decision on behalf of the user (e.g., the system cannot guarantee the user will win the scholarship). |
+
+| FR2 | Answer questions about application deadlines and required documents from the provided sources. | Invent deadlines or required documents that are not explicitly stated in the source text. |
+
+| FR3 | Provide a verifiable source reference (URL or document name) for every factual claim. | Present unsupported information as if it came from an official source. |
+
+| FR4 | Decline queries that fall outside the defined scholarship information scope and provide an appropriate redirect. | Provide legal, financial, or immigration advice. |
+
+| FR5 | Explicitly state when the provided sources do not contain enough information to answer the query. | Guess or hallucinate an answer when the retrieval system finds no relevant evidence. |
+
+| FR6 | Warn the user when a retrieved document might be outdated or time-sensitive. | Automatically apply for scholarships or submit forms on behalf of the user. |
+
