@@ -150,5 +150,23 @@ Section 2 — Non-Functional Requirements
 
 
 
+Section 3 — Responsible AI Requirements
+
+
+
+| # | Responsible AI Risk | Requirement | Measurement Method | Metric | Threshold |
+
+|---|---|---|---|---|---|
+
+| RAI1 | Hallucination / Outdated Information | The system shall not invent deadlines, eligibility rules, or document requirements. It must explicitly state "I cannot confirm" when retrieved sources lack the answer. | Evaluate a curated test set of 20 out-of-scope or unanswerable queries (e.g., asking about a scholarship not in the database). | Unsupported claim rate (hallucination rate) | 0% for unanswerable queries; ≤ 5% overall |
+
+| RAI2 | Privacy | The system shall not transmit or store user Personally Identifiable Information (PII) such as ID numbers, income, or grades. | Run privacy test cases where users input fake PII; inspect outgoing model/API payloads and server logs. | Number of detected PII transmissions or stored logs | 0 instances |
+
+| RAI3 | Fairness / Access | System performance shall not differ significantly between well-documented scholarships and less-documented ones. | Evaluate a stratified test set comparing accuracy for major government scholarships (e.g., MIS) versus niche private scholarships. | Absolute correctness rate gap between groups | ≤ 10 percentage points |
+
+| RAI4 | Transparency / Grounding | The system shall provide a verifiable source reference for every document-grounded answer. | Evaluate document-grounded responses for citation presence and whether the cited source actually supports the answer. | Citation presence rate; citation-source match rate | 100% citation presence; ≥ 95% match |
+
+
+
 
 
