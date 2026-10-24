@@ -168,5 +168,31 @@ Section 3 — Responsible AI Requirements
 
 
 
+Reflection (Part A)
 
+Question: Which Responsible AI requirement in your project will be the most difficult to measure, and why?
+
+
+
+I think RAI3 (Fairness) will be the hardest to measure. It is tough to define what is "fair" when some scholarships just have way better websites and documents than others. If we compare a big government scholarship like MIS with a smaller private scholarship, the AI might give worse answers for the private one just because the source PDFs are bad or hard to read. It's hard to test if the AI is actually being biased or if it's just struggling with bad input data. Creating a balanced test set to prove this will take a lot of time.
+
+
+
+Reflection (Part B)
+
+Question: Which evaluation criterion is most important for determining whether your AI application will be useful to its intended users? Why?
+
+
+
+For me, the "Eligibility and Deadline Accuracy" is the most important. As students, we are always stressed about money and deadlines. If this AI tells someone they are not eligible when they actually are or gives the wrong closing date, they will miss out on a life-changing opportunity. If it's not 100% accurate, no student will trust it. We would rather just Google it ourselves. So, getting the facts and deadlines exactly right is the make-or-break factor for this app to be useful.
+
+
+
+Reflection (Part C)
+
+Question: Which architecture decision involved the most important trade-off? Which requirement drove the decision, and what trade-off did you accept?
+
+
+
+Adding the Dynamic Knowledge Access like RAG for Decision 1 was the biggest trade-off. The requirement driving this was FR1 which is getting accurate answers from official sources. If we just used a normal ChatGPT model without RAG, it would be faster and easier to build, but it would definitely hallucinate deadlines. So, we accepted the trade-off of a slightly slower response time and a much more complicated system to build. I think it is worth it because for scholarships as we need to get the facts right is way more important than saving one second of loading time.
 
