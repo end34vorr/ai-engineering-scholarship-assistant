@@ -120,3 +120,39 @@ Mitigation idea: Warn users not to submit personal data and avoid storing sensit
 
 
 
+
+
+\## Weekly Progress
+
+| Week | Focus | Deliverable | Status |
+
+|---|---|---|---|
+
+| W1 | System map + project scope | README + docs | Complete |
+
+| W2 | TBD | TBD | Planned |
+
+| W3 | TBD | TBD | Planned |
+
+| W4 | TBD | TBD | Planned |
+
+| W5 | TBD | TBD | Planned |
+
+| W6 | TBD | TBD | Planned |
+
+| W7 | TBD | TBD | Planned |
+
+| W8 | TBD | TBD | Planned |
+
+| W9 | TBD | TBD | Planned |
+
+| W10 | TBD | TBD | Planned |
+
+| W11 | TBD | TBD | Planned |
+
+| W12 | TBD | TBD | Planned |
+
+| W13 | TBD | TBD | Planned |
+
+| W14 | TBD | TBD | Planned |
+
