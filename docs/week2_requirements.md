@@ -4,7 +4,7 @@ Version: 1.0
 
 
 
-\#Section 0 — Project Framing \& Application Scope
+Section 0 — Project Framing \& Application Scope
 
 
 
