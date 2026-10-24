@@ -108,7 +108,7 @@ To determine whether the system can accurately answer scholarship queries using 
 
 
 
-\## Section 1 — Functional Requirements
+Section 1 — Functional Requirements
 
 
 
@@ -127,4 +127,28 @@ To determine whether the system can accurately answer scholarship queries using 
 | FR5 | Explicitly state when the provided sources do not contain enough information to answer the query. | Guess or hallucinate an answer when the retrieval system finds no relevant evidence. |
 
 | FR6 | Warn the user when a retrieved document might be outdated or time-sensitive. | Automatically apply for scholarships or submit forms on behalf of the user. |
+
+
+
+Section 2 — Non-Functional Requirements
+
+
+
+| # | Quality Attribute | Requirement | Measurement Method | Metric | Threshold |
+
+|---|---|---|---|---|---|
+
+| NFR1 | Performance | The system shall keep interactive responses within the agreed latency target. | Measure end-to-end latency (from user query submission to final answer rendering) on a defined test workload. | p90 latency | < 3,000 ms |
+
+| NFR2 | Correctness | Answers shall be factually consistent with the official source documents. | Score a curated evaluation set of 50 scholarship queries using a standard rubric. | Correct response rate (%) | ≥ 85% |
+
+| NFR3 | Maintainability | Approved source document updates (e.g., new year's scholarship PDF) shall be incorporated without rebuilding the entire application. | Run a controlled document-update test (ingest a new PDF and update the knowledge base). | Update time | < 15 minutes |
+
+| NFR4 | Cost | Inference cost shall remain within the student project budget. | Record model/API token usage over the evaluation workload. | Cost per 100 queries | < US$0.50 per 100 queries |
+
+| NFR5 | Reliability | The system shall handle complex or long documents without crashing or timing out. | Run a stress test with large scholarship PDFs (e.g., 50+ pages) and concurrent users. | Query success rate | ≥ 99% |
+
+
+
+
 
