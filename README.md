@@ -58,11 +58,11 @@ Initial Project Objectives
 
 
 
-O1: Design a document-grounded AI scholarship information assistant based on official public sources.
+1: Design a document-grounded AI scholarship information assistant based on official public sources.
 
-O2: Develop the solution with retrieval, source citation, and guardrails for uncertain or outdated information.
+2: Develop the solution with retrieval, source citation, and guardrails for uncertain or outdated information.
 
-O3: Evaluate answer accuracy, groundedness, citation correctness, latency, and safety.
+3: Evaluate answer accuracy, groundedness, citation correctness, latency, and safety.
 
 
 
