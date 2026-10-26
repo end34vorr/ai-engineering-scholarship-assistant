@@ -130,9 +130,9 @@ Mitigation idea: Warn users not to submit personal data and avoid storing sensit
 
 | W1 | System map + project scope | README + docs | Complete |
 
-| W2 | TBD | TBD | Planned |
+| W2 | TBD | TBD | Complete |
 
-| W3 | TBD | TBD | Planned |
+| W3 | TBD | TBD | In-Progress |
 
 | W4 | TBD | TBD | Planned |
 
