@@ -16,7 +16,7 @@ Problem Statement
 
 
 
-Students often struggle to find timely, accurate scholarship information because eligibility rules, deadlines, and application steps are scattered across government, university, and scholarship-body websites. Advisors also answer repetitive questions. ScholarshipScope provides source-grounded answers with citations and uncertainty warnings.
+Students often struggle to find timely, accurate scholarship information because eligibility rules, deadlines and application steps are scattered across government, university, and scholarship-body websites. Advisors also answer repetitive questions. ScholarshipScope provides source-grounded answers with citations and uncertainty warnings.
 
 
 
@@ -26,9 +26,9 @@ Evidence of the Problem
 
 \- Stratosphere (2026) reports that in Malaysian public schools, a major barrier is awareness of opportunities; in one school, hundreds of students were eligible for scholarships but only five applied.
 
-\- Official scholarship information is distributed across separate portals and directories (e.g., MIS, Study Malaysia), so applicants must compare multiple sources and monitor changing deadlines manually.
+\- Official scholarship information is distributed across separate portals and directories like MIS and Study Malaysia, so applicants must compare multiple sources and monitor changing deadlines manually.
 
-Evidence 2: A systematic review of LLM-based chatbots in higher education confirms RAG is the leading architecture for reducing hallucinations, but challenges with accuracy, privacy, and costs persist.
+Evidence 2: A systematic review of LLM-based chatbots in higher education confirms RAG is the leading architecture for reducing hallucinations, but challenges with accuracy, privacy and costs persist.
 
 Source / citation:Systematic review of LLM-based chatbots in higher education (2025).
 
@@ -50,7 +50,7 @@ Engineering Gap / Limitation
 
 
 
-Existing RAG solutions focus on institutional data or generic search. There is a need for a citation-first, document-grounded assistant focused specifically on external scholarship information, with guardrails for uncertain, outdated, or time-sensitive information.
+Existing RAG solutions focus on institutional data or generic search. There is a need for a citation-first, document-grounded assistant focused specifically on external scholarship information with guardrails for uncertain, outdated    or time-sensitive information.
 
 
 
